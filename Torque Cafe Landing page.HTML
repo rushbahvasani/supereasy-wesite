@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <style>
+       /* CSS styles */
+       @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365FA0;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	100% {
+		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #FFFFFF};
+
+
+        /* CSS styles */
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+        }
+
+        .logo {
+          text-align: center;
+          margin-top: 50px;
+        }
+
+        .logo img {
+          max-width: 145px;
+          height: auto;
+        }
+        
+
+        .div1 {
+          text-align: center;  
+          margin-top: 20px;
+          padding: 18px;
+        }
+        .div2{
+            text-align: center;
+            margin-top: 20px;
+            padding: 2px;
+        }
+        .div3{
+            text-align: center;
+            margin-top: 20px;
+            padding: 2px;
+        }
+        hr {
+          border: none;
+          height: 2px;
+          background-color: #000;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        }
+       .button {  
+  border: none;
+  color: white;
+  padding: 32px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 96px;
+  background-color: #003366;
+  border-radius: 15px;
+  box-shadow: 0 9px #ab7121;
+        }
+       
+        .button:active {
+  background-color: #003366;
+  box-shadow: 0 5px #ab7121;
+  transform: translateY(4px);
+        }
+        .menu {
+          text-align: center;
+          height: 42px;
+        }
+        .insta {
+          text-align: center;
+          height: 42px;
+        }
+        .whatsapp {
+          text-align: center;
+          height: 42px;
+        }
+        .map {
+          text-align: center;
+          height: 42px;
+        }
+        .contact {
+          text-align: center;
+          height: 42px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="C:\Users\rusha\Desktop\TORQUE CAFE(THE PARK)\Creative chacha\logo Torque Cafe-1.png" alt="logo">
+    </div>
+    
+      <div class="wrapper">
+        <svg>
+          
+          <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+            Torque Cafe
+            </text>
+              </svg>
+            </div>
+        </svg>
+      </div>
+    </div>
+    <hr>
+    <div class="div1">
+      <button class="button" onclick="window.open('default.asp', '_blank')">
+       
+          <img src="C:\Users\rusha\Desktop\TORQUE CAFE(THE PARK)\Sonali\website png\menu.png" alt="" class="menu">
+        </button>
+        <button class="button" onclick="window.open('https://www.instagram.com/thetorquecafe/#', '_blank')"><img src="C:\Users\rusha\Desktop\TORQUE CAFE(THE PARK)\Sonali\website png\instagram.png" alt="" class="insta"></button>
+        
+    </div>
+    <div class="div2">
+      <button class="button" onclick="window.open(' https://wa.me/<number> ', '_blank')"><img src="C:\Users\rusha\Desktop\TORQUE CAFE(THE PARK)\Sonali\website png\whatsapp (1).png" alt="" class="whatsapp"></button>
+      <button class="button" onclick=" ('https://wa.me/8980568676 ' , '_blank')"><img src="C:\Users\rusha\Desktop\TORQUE CAFE(THE PARK)\Sonali\website png\location.png" alt="" class="map"></button>
+    </div>
+    <div class="div3">
+      <button class="button" onclick="window.open('https://www.instagram.com/p/Ctx3-HrhTLH/?igshid=MjA3NmNkZWY5Yg==.asp', '_blank')"> <img src="C:\Users\rusha\Desktop\TORQUE CAFE(THE PARK)\Sonali\website png\calling.png" alt="" class="contact"></button>
+    </div>
+
+       
+
+    <script>
+      // JavaScript code
+      console.log("Hello");
+    </script>
+  </body>
+</html>
